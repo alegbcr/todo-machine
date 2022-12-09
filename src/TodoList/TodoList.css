@@ -1,0 +1,10 @@
+.todo-list__main {
+    /* width: 100vw; */
+}
+
+.todo-list__main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* width: 100%; */
+}

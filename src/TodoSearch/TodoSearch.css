@@ -1,0 +1,47 @@
+.todo-search__container {
+    display: flex;
+    justify-content: center;
+}
+
+.todo-search__container--loading {
+    opacity: 0.5;
+}
+
+.todo-search--item {
+    width: 20rem;
+    padding: .5rem .5rem;
+    margin: 0 2rem .3rem 2rem;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid var(--white);
+    display: flex;
+    justify-self: center;
+
+}
+
+.todo-search {
+    border: none;
+    padding: .5rem .5rem 0rem;
+    margin-right: .5rem;
+    width: 100%;
+    background-color: transparent;
+}
+
+.todo-search:disabled {
+    opacity: 0.5
+}
+
+.todo-search:focus {
+    color: var(--white);
+    outline: none;
+}
+
+.todo-search::placeholder {
+    color: var(--white-alpha);
+    font-size: .9rem;
+    font-weight: 200;
+}
+.fa-search {
+    align-self: center;
+    background-color: transparent;
+}

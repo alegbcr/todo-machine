@@ -1,0 +1,112 @@
+:root {
+  /* Color Palette */
+  --blue: #00445f;
+  --white:#f0f8ff;
+  --blue-light: #185169;
+  --black: #2b2b2b;
+  --green: #069e13;
+  /* Shadows */
+  --black-shadow: rgba(43, 43, 43, 0.6);
+  /* Background */
+  --background: #046186;
+  --black-alpha: #2b2b2b9c;
+  --blue-alpha: rgba(43, 43, 43, 0.8);
+  --white-alpha: rgba(167, 167, 167, 0.8);
+  --green-alpha: #069e13a0;
+  
+}
+
+* {
+  font-family: sans-serif;
+  margin: 0;
+  color: var(--white);
+  background-color: var(--blue);
+}
+
+/* MOBILE CONTENT */
+.mobile__container {
+  flex-direction: column;
+  height: 100vh;
+  justify-items: center;
+  align-items: center;
+}
+
+.mobile__container__item--Item2{
+  justify-self: center;
+  align-self: start; 
+  height: 100%;
+}
+
+.mobile__container__item--Item2 .item2__item {
+  display: flex;
+  justify-content: center;
+  padding: .5rem 1rem;
+  cursor: pointer;
+  font-size: .9rem;
+  font-weight: 200;
+}
+
+
+/* Button */
+.mobile__container__item--Item2 .item2__item button {
+  padding: 1rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.mobile__container__item--Item2 .item2__item i {
+  color: var(--white-alpha);
+}
+
+.mobile__container__item--Item2 .item2__item i:hover {
+  color: #1d619c;
+}
+
+/* DESKTOP CONTENT */
+.desktop__container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 100vh;
+  justify-items: center;
+  align-items: center;
+}
+
+.desktop__card {
+  justify-self: end;
+  margin-right: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.desktop__container__item--Item2{
+  justify-self: start;
+  align-self: center; 
+  padding: 6rem 0rem;
+  margin-left: 3rem;
+}
+
+/* .desktop__container__item--Item2 .item2__item {
+  display: flex;
+  justify-content: center;
+  padding: .5rem 1rem;
+  cursor: pointer;
+  font-size: .9rem;
+  font-weight: 200;
+} */
+
+
+/* Button */
+.desktop__container__item--Item2 .item2__item button {
+  padding: 1rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.desktop__container__item--Item2 .item2__item i {
+  color: var(--white-alpha);
+}
+
+.desktop__container__item--Item2 .item2__item i:hover {
+  color: #1d619c;
+}
+
